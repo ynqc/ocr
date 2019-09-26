@@ -8,6 +8,11 @@
 # dependencies
 /node_modules
 
+# app android
+/android/app/build
+/android/.gradle
+/android/.idea
+
 # IDEs and editors
 /.idea
 .project
