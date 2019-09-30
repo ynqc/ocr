@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { RNCamera } from 'react-native-camera';
+import { Actions } from 'react-native-router-flux';
 
 class ImageScreen extends PureComponent {
   render() {
@@ -42,7 +43,7 @@ class ImageScreen extends PureComponent {
     if (this.camera) {
       const options = { quality: 0.5, base64: true };
       const data = await this.camera.takePictureAsync(options);
-      console.log(data.uri);
+      Actions.imageDetail({image: data});
     }
   };
 }
