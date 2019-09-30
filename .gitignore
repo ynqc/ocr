@@ -12,6 +12,7 @@
 /android/app/build
 /android/.gradle
 /android/.idea
+/android/local.properties
 
 # IDEs and editors
 /.idea
@@ -44,3 +45,21 @@ testem.log
 Thumbs.db
 
 
+
+android/app/src/main/res/raw/app.json
+
+android/app/src/main/res/drawable-hdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png
+
+android/app/src/main/res/drawable-mdpi/node_modules_reactnativerouterflux_images_back_chevron.png
+
+android/app/src/main/res/drawable-mdpi/node_modules_reactnativerouterflux_images_menu_burger.png
+
+android/app/src/main/res/drawable-mdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png
+
+android/app/src/main/res/drawable-mdpi/node_modules_reactnavigationstack_dist_views_assets_backiconmask.png
+
+android/app/src/main/res/drawable-xhdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png
+
+android/app/src/main/res/drawable-xxhdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png
+
+android/app/src/main/res/drawable-xxxhdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png
